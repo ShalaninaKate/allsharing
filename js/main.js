@@ -23,20 +23,37 @@ __webpack_require__.r(__webpack_exports__);
   \***************************************/
 /***/ (() => {
 
-//=================
-/*
-Для родителя слойлеров пишем атрибут data-spollers
-Для заголовков слойлеров пишем атрибут data-spoller
-Если нужно включать\выключать работу спойлеров на разных размерах экранов
-пишем параметры ширины и типа брейкпоинта.
-Например:
-data-spollers="992,max" - спойлеры будут работать только на экранах меньше или равно 992px
-data-spollers="768,min" - спойлеры будут работать только на экранах больше или равно 768px
-
-Если нужно что бы в блоке открывался болько один слойлер добавляем атрибут data-one-spoller
-*/
-
-// SPOLLERS
+var isMobile = {
+  Android: function () {
+    return navigator.userAgent.match(/Android/i);
+  },
+  BlackBerry: function () {
+    return navigator.userAgent.match(/BlackBerry/i);
+  },
+  iOS: function () {
+    return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+  },
+  Opera: function () {
+    return navigator.userAgent.match(/Opera Mini/i);
+  },
+  Windows: function () {
+    return navigator.userAgent.match(/IEMobile/i);
+  },
+  any: function () {
+    return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
+  }
+};
+function isIE() {
+  ua = navigator.userAgent;
+  var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+  return is_ie;
+}
+if (isIE()) {
+  document.querySelector('html').classList.add('ie');
+}
+if (isMobile.any()) {
+  document.querySelector('html').classList.add('_touch');
+}
 const spollersArray = document.querySelectorAll('[data-spollers]');
 if (spollersArray.length > 0) {
   // Получение обычных слойлеров

@@ -779,7 +779,7 @@ html {
 
 .hero {
   position: relative;
-  background: url("../../img/hero/bg.png") center/cover no-repeat;
+  background: url("../img/hero/bg.png") center/cover no-repeat;
   background-color: var(--cyan);
 }
 .hero::after {
@@ -3659,6 +3659,9 @@ html {
     margin-bottom: 2.5rem;
     gap: 0.3125rem;
   }
+}
+._init .menu-footer__list {
+  display: none;
 }
 .menu-footer__link {
   font-size: 1.875rem;
