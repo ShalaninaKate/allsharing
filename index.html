@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Главная</title>
+
+  <link rel="preload" href="fonts/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Manrope-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Manrope-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Manrope-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Manrope-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="css/main.css">
+  
+
+
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__container">
+    <div class="header__logo">
+      <img class="header__logo-icon" src="./img/logo.svg" alt="logo">
+      <p class="header__logo-text">всё в аренду</p>
+    </div>
+    <div class="header__actions">
+      <a href="#" class="header__action header__action--login button">Вход</a>
+      <a href="#" class="header__action header__action--registration button">Регистрация</a>
+    </div>
+  </div>
+</header>
+
+    <main class="page">
+       <section class="page__section hero">
+
+  <div class="hero__container">
+    <div class="hero__content">
+      <h1 class="hero__title"><span class="hero__title-label">Все временно–</span><span
+          class="hero__title-left">живи</span><span class="hero__title-right">легко</span></h1>
+      <p class="hero__text">Платформа аренды
+        ALLSHARING даёт возможность брать и сдавать любые вещи
+        в аренду безопасно и зарабатывать на этом
+        в лёгкости! </p>
+      <div class="hero__actions">
+        <a href="#" class="hero__registration-btn">Регистрируйся</a>
+        <a href="#" class="hero__start-btn button">Начать
+          <svg class="button__icon">
+            <use xlink:href="img/sprite.svg#arrows"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="hero__image">
+        <div class="hero__buttons">
+          <a href="#" class="hero__button button">
+            Сдать в аренду
+            <svg class="hero__button-icon button__icon">
+              <use xlink:href="img/sprite.svg#arrows"></use>
+            </svg>
+          </a>
+          <a href="#" class="hero__button button">
+            Взять в аренду
+            <svg class="hero__button-icon button__icon">
+              <use xlink:href="img/sprite.svg#arrows"></use>
+            </svg>
+          </a>
+        </div>
+        <picture>
+          <source srcset="./img/hero/phone.webp 1x, ./img/hero/phone@2x.webp 2x," type="image/webp">
+          <img class="hero__picture" src="./img/hero/phone.png" srcset="./img/hero/phone@2x.png 2x"
+            width="" height="" alt="phone">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <div class="video">
+
+  <div class="video__container">
+    <div class="video__body">
+    <button class="video__play-btn">
+      <svg class="video__play-icon">
+        <use xlink:href="img/sprite.svg#play"></use>
+      </svg>
+    </button>
+    </div>
+
+  </div>
+</div>
+
+       <section class="information">
+
+  <div class="information__top">
+    <div class="information__container">
+      <a href="#" class="information__top-btn button button--cyan">Начать
+        <svg class="button__icon button__icon--cyan">
+          <use xlink:href="img/sprite.svg#arrows"></use>
+        </svg>
+      </a>
+      <div class="information__top-content">
+        <picture>
+          <source srcset="../img/information/shari.webp 1x, ../img/information/shari@2x.webp 2x," type="image/webp">
+          <img class="information__top-image" loading="lazy" src="../img/information/shari.png"
+            srcset="../img/information/shari@2x.png 2x" width="" height="" alt="shari">
+        </picture>
+        <p class="information__top-text text">Выбирай лучший никнейм, быстро набирай рейтинг,
+          становись популярным и находи друзей! <br />
+          Сдавать и брать в аренду могут компании.
+          и предприниматели, самозанятые <br/>
+          и частные лица, а также государственные корпорации.</p>
+      </div>
+    </div>
+  </div>
+  <div class="information__bottom">
+    <div class="information__container">
+      <h2 class="information__bottom-title title">Важная информация</h2>
+      <div class="information__bottom-content">
+        <div class="information__bottom-text text">
+          <p>Укажите номер телефона, ФИО*, другие данные и почту.</p>
+          <p>Если вы организация укажите все необходимые реквизиты.</p>
+          <p> Все данные защищены.</p>
+          <p>Паспорт нужен только для верификации.</p>
+          <p> Без паспортных данных залог 100%.</p>
+        </div>
+        <a href="#" class="information__bottom-btn button button--cyan">Зарегистрироваться
+          <svg class="button__icon button__icon--cyan">
+            <use xlink:href="img/sprite.svg#arrows"></use>
+          </svg>
+        </a>
+        <p class="information__bottom-info">*после верификации изменению не подлежит</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <section class="search">
+  <div class="search__container">
+    <picture class="search__picture-desktop">
+      <source srcset="./img/search/search.webp 1x, ./img/search/search@2x.webp 2x," type="image/webp">
+      <img class="search__image" loading="lazy" src="./img/search/search.png" srcset="./img/search/search@2x.png 2x"
+        width="" height="" alt="search">
+    </picture>
+    <div class="search__content">
+      <h2 class="search__title">Поиск</h2>
+      <p class="search__text text">Удобная система поиска </p>
+      <picture class="search__picture-mobile">
+        <source srcset="./img/search/search.webp 1x, ./img/search/search@2x.webp 2x," type="image/webp">
+        <img class="search__image" loading="lazy" src="./img/search/search.png" srcset="./img/search/search@2x.png 2x"
+          width="" height="" alt="search">
+      </picture>
+      <h2 class="search__title-info">Если товара нет у нас на платформе </h2>
+      <div class="search__text-info text"><p>Если нет того, что Вы ищете, <br/> разместите запрос.</p>
+      <p>
+          Этот запрос сразу увидят тысячи других пользователей,
+          и кто-то непременно предложит эту вещь вам!
+      </p> </div>
+        <a href="#" class="search__btn button">Я ищу
+          <svg class="button__icon">
+            <use xlink:href="img/sprite.svg#arrows"></use>
+          </svg>
+           <div class="gradient"></div>
+        </a>
+
+    </div>
+  </div>
+</section>
+
+       <section class="placement">
+  <div class="placement__container">
+    <h2 class="placement__title title">Размещение товаров</h2>
+    <div class="placement__text text">
+      <p>Указывайте стоимость и определяйте залог при повреждении.</p>
+      <p>В будущем в этом вам будет помогать наша нейросеть.</p>
+      <p>Вскоре для аккаунтов с высоким рейтингом мы введем страховку.</p>
+      <div class="placement__gradient gradient-text"></div>
+    </div>
+    <picture>
+      <source srcset="./img/placement/phone.webp 1x, ./img/placement/phone@2x.webp 2x," type="image/webp">
+      <img class="placement__image" loading="lazy" src="./img/placement/phone.png"
+        srcset="./img/placement/phone@2x.png 2x" width="" height="" alt="phone">
+
+    </picture>
+  </div>
+</section>
+
+       <section class="support">
+  <div class="support__container">
+    <div class="support__content">
+      <div class="support__arrows">
+        <picture>
+          <source srcset="./img/support/arrows.webp 1x, ./img/support/arrows@2x.webp 2x," type="image/webp">
+          <img class="support__arrows-image" loading="lazy" src="./img/support/arrows.png"
+            srcset="./img/support/arrows@2x.png 2x" width="" height="" alt="arrows">
+        </picture>
+        <p class="support__arrows-text">Мы все решим</p>
+        <div class="support__arrows-gradient gradient-text"></div>
+      </div>
+      <div class="support__dispute">
+        <h2 class="support__dispute-title title">Если возник спор:</h2>
+        <div class="support__dispute-body">
+          <p class="support__dispute-text">Мы поможем
+            разобраться
+            как можно
+            быстрее: </p>
+          <ul class="support__dispute-list">
+            <li class="support__dispute-item">- В случае пропажи мы поможем обратиться
+              во все правоохранительные органы;</li>
+            <li class="support__dispute-item">- Если спор решается мирно, рейтинг практически не меняется;</li>
+            <li class="support__dispute-item">- Если идут разбирательства, наши специалисты определяют причастность к
+              поломке и удерживают средства в пользу не причастной стороны.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="support__content">
+      <div class="support__arrows support__arrows--2">
+        <picture>
+          <source srcset="./img/support/arrows.webp 1x, ./img/support/arrows@2x.webp 2x," type="image/webp">
+          <img class="support__arrows-image" loading="lazy" src="./img/support/arrows.png"
+            srcset="./img/support/arrows@2x.png 2x" width="" height="" alt="arrows">
+        </picture>
+        <p class="support__arrows-text">Мы все решим</p>
+        <div class="support__arrows-gradient gradient-text"></div>
+      </div>
+      <div class="support__security">
+        <h2 class="support__security-title title">Безопасность сделок</h2>
+        <div class="support__security-body">
+
+          <ul class="support__security-list">
+            <li class="support__security-item">- Верификация всех участников;</li>
+            <li class="support__security-item">- Холдирование залога;</li>
+            <li class="support__security-item">- Рейтинг арендатора и арендодателя</li>
+            <li class="support__security-item">- Оплата только через платформу.</li>
+          </ul>
+          <p class="support__security-text">Все это обеспечивает высокую
+            степень защиты каждого
+            участника нашей платформы</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <section class="opportunities">
+  <div class="opportunities__container">
+    <h2 class="opportunities__title title title--cyan">ЧТО МЫ ВАМ ПРЕДЛАГАЕМ:</h2>
+    <ul class="opportunities__list">
+      <li class="opportunities__item item-opportunities">
+        <picture>
+          <source srcset="./img/opportunities/blog.webp 1x, ./img/opportunities/blog@2x.webp 2x," type="image/webp">
+          <img class="item-opportunities__image item-opportunities__image--blog" loading="lazy"
+            src="./img/opportunities/blog.png" srcset="./img/opportunities/blog@2x.png 2x" width="" height=""
+            alt="blog">
+        </picture>
+        <h2 class="item-opportunities__title title">Личный Блог</h2>
+        <div class="item-opportunities__descr">
+          <p class="item-opportunities__text text">
+            Вы можете стать одним из первых блогеров на нашей платформе - пишите статьи, делайте обзоры товаров
+            в аренду <strong>и набирайте популярность!</strong>
+          </p>
+        </div>
+      </li>
+
+      <li class="opportunities__item item-opportunities">
+        <picture>
+          <source srcset="./img/opportunities/follow.webp 1x, ./img/opportunities/follow@2x.webp 2x," type="image/webp">
+          <img class="item-opportunities__image item-opportunities__image--follow" loading="lazy"
+            src="./img/opportunities/follow.png" srcset="./img/opportunities/follow@2x.png 2x" width="" height=""
+            alt="blog">
+        </picture>
+        <h2 class="item-opportunities__title title">Подписаться на человека</h2>
+        <div class="item-opportunities__descr">
+          <p class="item-opportunities__text text">
+            Если Вам нравятся чьи-то товары или блог -
+            <strong class="item-opportunities__strong">просто подпишитесь!</strong>
+          </p>
+        </div>
+      </li>
+
+      <li class="opportunities__item item-opportunities">
+        <picture>
+          <source srcset="./img/opportunities/premium.webp 1x, ./img/opportunities/premium@2x.webp 2x,"
+            type="image/webp">
+          <img class="item-opportunities__image item-opportunities__image--premium" loading="lazy"
+            src="./img/opportunities/premium.png" srcset="./img/opportunities/premium@2x.png 2x" width="" height=""
+            alt="blog">
+        </picture>
+
+        <h2 class="item-opportunities__title title">Если вы профессиональный арендотатель:</h2>
+        <div class="item-opportunities__descr">
+          <p class="item-opportunities__text text">
+            У нас есть для Вас подписка на премиум аккаунт,
+            с которой вы <strong>снизите комиссию платформы в 2 раза!</strong>
+          </p>
+        </div>
+        <div class="item-opportunities__descr">
+          <p class="item-opportunities__text text">Размещайте свои карточки бесплатно!</p>
+          <p class="item-opportunities__text text">Арендодатель платит только за успешную сделку,</p>
+          <p class="item-opportunities__text text">Арендатор комиссию не платит совсем.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+       <section class="features">
+  <div class="features__container">
+    <div class="features__item item-features">
+      <div class="item-features__descr">
+        <h2 class="item-features__title title title--cyan">Не только вещи:</h2>
+        <p class="item-features__text text">Вы можете арендовать или сдавать не только вещи в аренду, но и обученных
+          животных, например для фотосессии, съёмок рекламы или для съёмок в кино.</p>
+
+      </div>
+      <picture>
+        <source srcset="./img/features/phone1.webp 1x, ./img/features/phone1@2x.webp 2x," type="image/webp">
+        <img class="item-features__picture" src="./img/features/phone1.png" srcset="./img/features/phone1@2x.png 2x"
+          width=""
+          height="" alt="phone">
+      </picture>
+      <div class="features__gradient gradient-text"></div>
+    </div>
+    <div class="features__item item-features item-features--bottom">
+      <div class="item-features__descr">
+        <h2 class="item-features__title item-features__title--bottom title title--cyan">Не только вещи:</h2>
+        <p class="item-features__text text">Вы можете сдать себя в аренду как специалиста, звезду шоу-бизнеса, модель
+          или просто как хорошего человека, с которым приятно провести время!</p>
+
+      </div>
+      <picture>
+        <source srcset="./img/features/phone2.webp 1x, ./img/features/phone2@2x.webp 2x," type="image/webp">
+        <img class="item-features__picture" src="./img/features/phone2.png" srcset="./img/features/phone2@2x.png 2x"
+          width=""
+          height="" alt="phone">
+      </picture>
+      <div class="features__gradient features__gradient--bottom gradient-text"></div>
+    </div>
+  </div>
+</section>
+
+       <section class="warning">
+  <div class="warning__top">
+    <div class="warning__container">
+      <div class="warning__top-content">
+
+        <picture>
+          <source srcset="./img/warning/warning-icon.webp 1x, ./img/warning/warning-icon@2x.webp 2x," type="image/webp">
+          <img class="warning__top-icon" src="./img/warning/warning-icon.png"
+            srcset="./img/warning/warning-icon@2x.png 2x" width="" height="" alt="icon">
+        </picture>
+        <h2 class="warning__top-title">Не выходите <br /> <strong>на сделку</strong> <br />вне платформы!
+        <div class="warning__top-gradient gradient-text"></div>
+        </h2>
+        <div class="warning__top-descr">
+          <p class="warning__top-text">
+            Если ваш собеседник настаивает на сделке <strong>вне платформы — это повод задуматься о мошенниках.</strong>
+          </p>
+          <p class="warning__top-text">
+            Там мы не сможем защитить Вас.
+          </p>
+        </div>
+        <picture>
+          <source srcset="./img/warning/shari1.webp 1x, ./img/warning/shari1@2x.webp 2x," type="image/webp">
+          <img class="warning__top-image" src="./img/warning/shari1.png" srcset="./img/warning/shari1@2x.png 2x"
+            width="" height="" alt="shari">
+        </picture>
+      </div>
+    </div>
+  </div>
+  <div class="warning__bottom">
+    <div class="warning__container">
+      <div class="warning__bottom-content">
+        <div class="warning__bottom-info">
+          <h2 class="warning__bottom-title">Это наш дракончик Шери:</h2>
+          <p class="warning__bottom-text">
+            Шери очень справедливый дракон и он очень любит, когда все относятся друг к другу с уважением! Поэтому он
+            призывает каждого из нас бережно относиться к вещам, которые вы берете или сдаете в аренду, и конечно же
+            уважать друг друга в общении!
+          </p>
+        </div>
+        <div class="warning__bottom-picture">
+          <p class="warning__bottom-hello">Привет, я Шери!</p>
+          <picture>
+            <source srcset="./img/warning/shari2.webp 1x, ./img/warning/shari2@2x.webp 2x," type="image/webp">
+            <img class="warning__bottom-image" src="./img/warning/shari2.png" srcset="./img/warning/shari2@2x.png 2x"
+              width="" height="" alt="shari">
+          </picture>
+        </div>
+        <a href="#" class="warning__bottom-btn button">Начать
+          <svg class="button__icon">
+            <use xlink:href="img/sprite.svg#arrows"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+             <section class="goods">
+        <div class="goods__container">
+          <div class="goods__slider goods-slider swiper">
+            <div class="goods-slider__wrapper swiper-wrapper">
+              <div class="goods-slider__slide swiper-slide">
+                <div class="goods-slider__picture">
+                  <picture>
+                    <source srcset="../img/slider/1.webp 1x, ../img/slider/1@2x.webp 2x," type="image/webp">
+                    <img class="goods-slider__image" src="../img/slider/1.jpg" srcset="../img/slider/1@2x.jpg 2x"
+                      width="" height="" alt="goods">
+                  </picture>
+                  <h3 class="goods-slider__title">Свадьба</h3>
+
+                </div>
+                <div class="goods-slider__descr">
+                  <p class="goods-slider__text">
+                    Праздник, который длится один день, и при этом требует огромное количество затрат.
+                    Итоговая сумма средней свадьбы более 1 миллиона рублей.
+                    Кому-то пришлось всё это купить, т.к. не нашли в аренду.
+                  </p>
+                  <p class="goods-slider__text">
+                    Но теперь у вас есть платформа аренды ALLSHARING и всё можно взять в аренду.
+                    Таким образом на свадьбе со всем необходимым в аренду можно сэкономить более
+                    900 тысяч рублей за 1 день!
+                  </p>
+                </div>
+              </div>
+              <div class="goods-slider__slide swiper-slide">
+                <div class="goods-slider__picture">
+                  <picture>
+                    <source srcset="../img/slider/2.webp 1x, ../img/slider/2@2x.webp 2x," type="image/webp">
+                    <img class="goods-slider__image" src="../img/slider/2.jpg" srcset="../img/slider/2@2x.jpg 2x"
+                      width="" height="" alt="goods">
+                  </picture>
+                  <h3 class="goods-slider__title">КОЛЯСКА <br>
+                    ДЛЯ РЕБЁНКА </h3>
+                </div>
+                <div class="goods-slider__descr">
+                  <p class="goods-slider__text">
+                    Коляска для ребёнка. Куплена была за 80 тысяч рублей, использовали год и после использования в
+                    хорошем состоянии её
+                    можно продать за 44 тысячи рублей.
+                  </p>
+                  <p class="goods-slider__text">
+                    Потеря за год составит 36т.р. Если эту коляску после использования не продать, а сдавать в аренду за
+                    3000 рублей/месяц,
+                    за год окупите все свои потери, а за 2 года окупите коляску полностью и она будет приносить
+                    пассивный доход.
+                  </p>
+                </div>
+              </div>
+              <div class="goods-slider__slide swiper-slide">
+                <div class="goods-slider__picture">
+                  <picture>
+                    <source srcset="../img/slider/3.webp 1x, ../img/slider/3@2x.webp 2x," type="image/webp">
+                    <img class="goods-slider__image" src="../img/slider/3.jpg" srcset="../img/slider/3@2x.jpg 2x"
+                      width="" height="" alt="goods">
+                  </picture>
+                  <h3 class="goods-slider__title">ИНСТРУМЕНТЫ <br>
+                    ДЛЯ ДОМА</h3>
+                </div>
+                <div class="goods-slider__descr">
+                  <p class="goods-slider__text">
+                    У вас дома есть хорошая дрель, стоимостью 10т.р, которой вы пользуетесь раз в год. Продавать вы её с
+                    дисконтом не
+                    хотите, но себестоимость "дырок" получается слишком высока.
+                  </p>
+                  <p class="goods-slider__text">
+                    Для вас есть решение: сдать свою дрель в аренду по цене 300-500 рублей в день. Меньше чем за месяц
+                    ваша дрель
+                    окупится, а со второго месяца будет приносить вам пассивный доход!
+                  </p>
+                </div>
+              </div>
+              <div class="goods-slider__slide swiper-slide">
+                <div class="goods-slider__picture">
+                  <picture>
+                    <source srcset="../img/slider/4.webp 1x, ../img/slider/4@2x.webp 2x," type="image/webp">
+                    <img class="goods-slider__image" src="../img/slider/4.jpg" srcset="../img/slider/4@2x.jpg 2x"
+                      width="" height="" alt="goods">
+                  </picture>
+                  <h3 class="goods-slider__title">РЕКВИЗИТ <br>
+                    НА ПАРУ ЧАСОВ</h3>
+
+                </div>
+                <div class="goods-slider__descr">
+                  <p class="goods-slider__text">
+                    Нужна креативная фотосессия для себя или для бизнеса. Нужны экзотические животные: змеи, тигры,
+                    волки
+                  </p>
+                  <p class="goods-slider__text">
+                    На платформе аренды ALLSHARING можно взять любых экзотических животных в аренду на несколько часов
+                    для
+                    фотосессий, без вреда для животных. Такие фотографии привлекают больше пользователей в социальных
+                    сетях,
+                    тем самым увеличивая в продажу.
+                  </p>
+                </div>
+              </div>
+              <div class="goods-slider__slide swiper-slide">
+                <div class="goods-slider__picture">
+                  <picture>
+                    <source srcset="../img/slider/5.webp 1x, ../img/slider/5@2x.webp 2x," type="image/webp">
+                    <img class="goods-slider__image" src="../img/slider/5.jpg" srcset="../img/slider/5@2x.jpg 2x"
+                      width="" height="" alt="goods">
+                  </picture>
+                  <h3 class="goods-slider__title">ЗНАНИЯ
+                </div>
+                <div class="goods-slider__descr">
+                  <p class="goods-slider__text">
+                    У вас ничего нет, от слова совсем. Но вы хороший специалист или просто хороший человек. Тогда вы
+                    можете
+                    сдать себя и свои знания в аренду. Стоимость будет зависеть только от ваших компетенций и
+                    публичности.
+                  </p>
+                  <p class="goods-slider__text">
+                    Кто-то захочет взять ваше время в аренду, чтобы вы просто поговорили с человеком, погуляли или
+                    поужинали.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="goods-slider__arrows slider-arrows">
+            <button type="button" class="slider-arrow slider-arrow--prev">
+              <svg class="slider-arrow__icon">
+                <use xlink:href="img/sprite.svg#arrows"></use>
+              </svg>
+            </button>
+            <button type="button" class="slider-arrow slider-arrow--next">
+              <svg class="slider-arrow__icon">
+                <use xlink:href="img/sprite.svg#arrows"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+       <section class="partners">
+  <div class="partners__container">
+    <h2 class="partners__title title title--cyan">нас поддерживают:</h2>
+    <ul class="partners__items">
+      <li class="partners__item">
+        <picture>
+          <source srcset="../img/partners/partner1.webp 1x, ../img/partners/partner1@2x.webp 2x," type="image/webp">
+          <img class="partners__image partners__image--1" src="../img/partners/partner1.jpg"
+            srcset="../img/partners/partner1@2x.jpg 2x"
+            width="" height="" alt="partners">
+        </picture>
+      </li>
+      <li class="partners__item">
+        <picture>
+          <source srcset="../img/partners/partner2.webp 1x, ../img/partners/partner2@2x.webp 2x," type="image/webp">
+          <img class="partners__image partners__image--2" src="../img/partners/partner2.jpg"
+            srcset="../img/partners/partner2@2x.jpg 2x"
+            width="" height="" alt="partners">
+        </picture>
+      </li>
+      <li class="partners__item">
+        <picture>
+          <source srcset="../img/partners/partner3.webp 1x, ../img/partners/partner3@2x.webp 2x," type="image/webp">
+          <img class="partners__image partners__image--3" src="../img/partners/partner3.jpg"
+            srcset="../img/partners/partner3@2x.jpg 2x"
+            width="" height="" alt="partners">
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+       <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__top">
+      <h3 class="footer__top-title">Регистрируйся - экономь и зарабатывай!</h3>
+      <div class="footer__top-actions">
+        <a href="#" class="footer__top-btn button">Сдать в аренду
+          <svg class="button__icon">
+            <use xlink:href="img/sprite.svg#arrows"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer__top-btn button">Взять в аренду
+          <svg class="button__icon">
+            <use xlink:href="img/sprite.svg#arrows"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div data-spollers="768,max" data-one-spoller class="footer__menu menu-footer">
+      <div class="menu-footer__column">
+        <button type="button" data-spoller class="menu-footer__title">FAQ</button>
+        <ul class="menu-footer__list">
+          <li><a href="#" class="menu-footer__link">Пользовательское соглашение</a></li>
+          <li><a href="#" class="menu-footer__link">Политика конфиденциальности</a></li>
+          <li><a href="#" class="menu-footer__link">Правила размещения объявлений</a></li>
+          <li><a href="#" class="menu-footer__link">Оферта для арендодателей</a></li>
+        </ul>
+      </div>
+      <div class="menu-footer__column">
+        <button type="button" data-spoller class="menu-footer__title">Документы</button>
+        <ul class="menu-footer__list">
+          <li><a href="#" class="menu-footer__link">Пользовательское соглашение</a></li>
+          <li><a href="#" class="menu-footer__link">Политика конфиденциальности</a></li>
+          <li><a href="#" class="menu-footer__link">Правила размещения объявлений</a></li>
+          <li><a href="#" class="menu-footer__link">Оферта для арендодателей</a></li>
+        </ul>
+      </div>
+      <div class="menu-footer__column">
+        <button type="button" data-spoller class="menu-footer__title">О нас</button>
+        <ul class="menu-footer__list">
+          <li><a href="#" class="menu-footer__link">О компании</a></li>
+          <li><a href="#" class="menu-footer__link">Команда</a></li>
+          <li><a href="#" class="menu-footer__link">Партнёры</a></li>
+          <li><a href="#" class="menu-footer__link">Отзывы</a></li>
+        </ul>
+      </div>
+      <div class="menu-footer__column">
+        <button type="button" data-spoller class="menu-footer__title">Контакты </button>
+        <ul class="menu-footer__list">
+          <li><a href="mailto:allsharing.info@yandex.ru" class="menu-footer__link">allsharing.info@yandex.ru</a></li>
+        </ul>
+        <ul class="menu-footer__socials">
+          <li class="menu-footer__socials-item">
+            <a href="#" class="menu-footer__socials-link">
+              <svg
+                class="menu-footer__socials-icon menu-footer__socials-icon--vk">
+                <use xlink:href="img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-footer__socials-item ">
+            <a href="#" class="menu-footer__socials-link">
+              <svg class="menu-footer__socials-icon menu-footer__socials-icon--telegram">
+                <use xlink:href="img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-footer__socials-item ">
+            <a href="#" class="menu-footer__socials-link">
+              <svg class="menu-footer__socials-icon menu-footer__socials-icon--twitter">
+                <use xlink:href="img/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-footer__socials-item ">
+            <a href="#" class="menu-footer__socials-link">
+              <svg class="menu-footer__socials-icon menu-footer__socials-icon--tiktok">
+                <use xlink:href="img/sprite.svg#tiktok"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-footer__socials-item ">
+            <a href="#" class="menu-footer__socials-link">
+              <svg class="menu-footer__socials-icon menu-footer__socials-icon--dzen">
+                <use xlink:href="img/sprite.svg#dzen"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-footer__socials-item ">
+            <a href="#" class="menu-footer__socials-link">
+              <svg class="menu-footer__socials-icon menu-footer__socials-icon--youtube">
+                <use xlink:href="img/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__logo">
+        <svg class="footer__logo-icon">
+          <use xlink:href="img/sprite.svg#logo"></use>
+        </svg>
+        <!-- <img class="footer__logo-icon" src="./img/logo-footer.svg" alt="logo"> -->
+        <p class="footer__logo-text">всё в аренду</p>
+      </div>
+      <p class="footer__copy">
+        2024. Allsharing (R) Все права защищены.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+    </main>
+  </div>
+</body>
+
+</html>
+
